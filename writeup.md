@@ -6,6 +6,8 @@ My project includes the following files:
 `python model.py`. It loads data from `./data/` directory, fits models, checkpoints models to `./model_checkpoints/` and creates a plot of training and validation loss.
 
   _Note: it saves all models to checkpoint directory and does not save the final model to `./model.h5`; we manually select a model from the checkpoint directory based on loss graph._
+
+  Restore data in ./data/ folder from [my project's data folder on github](https://github.com/deepakzambre/BehavioralCloning/tree/master/data).
 * _drive.py_: for driving the car in autonomous mode, can be invoked as `python drive.py model.h5`
 * _model.h5_: pre-trained solution model for this project
 * _video.mp4_: video of vehicle driving autonomously around track_1 for one lap using model.h5
@@ -28,27 +30,27 @@ Thereafter, depending on models performance in autonomous mode, I augmented data
 
 Edge to center 1
 
-![](.\data\specific_training_1\IMG\center_2017_08_05_00_35_35_619.jpg?raw=true)
-![](.\data\specific_training_1\IMG\center_2017_08_05_00_35_37_502.jpg?raw=true)
-![](.\data\specific_training_1\IMG\center_2017_08_05_00_35_39_422.jpg?raw=true)
+![](./examples/1.jpg?raw=true)
+![](./examples/2.jpg?raw=true)
+![](./examples/3.jpg?raw=true)
 
 Edge to center 2
 
-![](.\data\specific_training_1\IMG\center_2017_08_05_00_36_22_508.jpg?raw=true)
-![](.\data\specific_training_1\IMG\center_2017_08_05_00_36_26_149.jpg?raw=true)
-![](.\data\specific_training_1\IMG\center_2017_08_05_00_36_28_592.jpg?raw=true)
+![](./examples/4.jpg?raw=true)
+![](./examples/5.jpg?raw=true)
+![](./examples/6.jpg?raw=true)
 
 Edge to center on bridge
 
-![](.\data\specific_training_1\IMG\center_2017_08_05_00_37_56_959.jpg?raw=true)
-![](.\data\specific_training_1\IMG\center_2017_08_05_00_38_01_337.jpg?raw=true)
-![](.\data\specific_training_1\IMG\center_2017_08_05_00_38_03_569.jpg?raw=true)
+![](./examples/7.jpg?raw=true)
+![](./examples/8.jpg?raw=true)
+![](./examples/9.jpg?raw=true)
 
 Soil to center after bridge
 
-![](.\data\specific_training_1\IMG\center_2017_08_05_00_40_06_742.jpg?raw=true)
-![](.\data\specific_training_1\IMG\center_2017_08_05_00_40_07_998.jpg?raw=true)
-![](.\data\specific_training_1\IMG\center_2017_08_05_00_40_10_652.jpg?raw=true)
+![](./examples/10.jpg?raw=true)
+![](./examples/11.jpg?raw=true)
+![](./examples/12.jpg?raw=true)
 
 Similarly, I collected sample data for other situations like entering bridge, exiting bridge, etc. All of specific maneuvers data is located in `./data/specific_training_1`, `./data/specific_training_2` and `./data/specific_training_3` folders.
 
